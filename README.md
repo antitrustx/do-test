@@ -10,8 +10,8 @@ You must realize, you need *some credentionals* to make a deploy, so after clone
 
 # Install
 For local deploy follow instructions below:
-    - [x] - make git clone <thisrepo>
-    - [x] - chmod +x /liteme.sh
-    - [x] - ./liftme
+ * make git clone <thisrepo>
+ * chmod +x /liteme.sh
+ * ./liftme
   
   
