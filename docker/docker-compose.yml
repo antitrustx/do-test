@@ -1,0 +1,19 @@
+version: '2'
+services:
+  web:
+    build: ./devops-test
+    command: python app.py
+    ports:
+    - 5000:5000
+    volumes:
+    - ./devops-test:/testapp
+    depends_on:
+    - db
+    environment:
+     DATABASE_URL: postgres://postgres@db/postgres
+     USER_NAME: MeMeME
+     USER_URL: Http://www.com/
+  db:
+    image: postgres:9.4
+  
+
