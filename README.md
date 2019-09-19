@@ -14,6 +14,7 @@ for this moment .env file can be empty !
 # Install
 For local deploy follow instructions below:
  * make git clone https://github.com/antitrustx/do-test.git
+ * cd do-test/
  * chmod +x /liteme.sh
  * touch .env
  * ./liftme
