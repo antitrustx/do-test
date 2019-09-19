@@ -13,7 +13,7 @@ for this moment .env file can be empty !
 
 # Install
 For local deploy follow instructions below:
- * make git clone https://github.com/antitrustx/do-test.git
+ * git clone https://github.com/antitrustx/do-test.git
  * cd do-test/ && chmod +x liftme.sh
  * touch .env
  * ./liftme.sh
