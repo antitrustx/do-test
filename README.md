@@ -2,6 +2,9 @@
 I'ts a just a try to bring testapp from https://github.com/soar/devops-test to deployed instance
 
 # Before install
+Your host must already containd fresh versions docker and docker-compose 
+See more about docker install here https://docs.docker.com/install/
+
 You must realize, you need *some credentionals* to make a deploy, so after clone your project make .env file and create some variables
 
 for this moment .env file can be empty !
