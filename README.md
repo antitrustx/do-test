@@ -10,8 +10,9 @@ You must realize, you need *some credentionals* to make a deploy, so after clone
 
 # Install
 For local deploy follow instructions below:
- * make git clone <thisrepo>
+ * make git clone https://github.com/antitrustx/do-test.git
  * chmod +x /liteme.sh
+ * touch .env
  * ./liftme
   
   
