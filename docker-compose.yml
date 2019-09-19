@@ -1,0 +1,22 @@
+version: '2'
+services:
+  web:
+    build: ./devops-test
+    command: flask run
+    ports:
+    - 5000:5000
+    volumes:
+    - ./devops-test:/testapp
+    depends_on:
+    - db
+    environment:
+     DATABASE_URL: postgres://postgres@db/postgres
+     USER_NAME: MeMeME
+     USER_URL: Http://www.com/
+     SQLALCHEMY_TRACK_MODIFICATIONS: "false"
+     FLASK_APP: app.py
+     FLASK_ENV: development
+  db:
+    image: postgres:11
+  
+
