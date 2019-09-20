@@ -12,6 +12,6 @@ git clone https://github.com/soar/devops-test.git
 
 cp ../docker/docker-compose.yml .
 cp ../docker/devops-test/Dockerfile devops-test/
-
+cd testapp/
 docker-compose build
 docker-compose up
